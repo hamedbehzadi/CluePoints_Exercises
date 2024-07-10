@@ -35,10 +35,10 @@ The files and directories are as follow:
 	6- preprocessed_train.csv and preprocessed_val.csv: Preprocessed dataset
 
 
-cluepoints_env.yml: Anaconda envirnonment containing all dependencies that you need to be able to run the implemented code
+	7- cluepoints_env.yml: Anaconda envirnonment containing all dependencies that you need to be able to run the implemented code
 
 
-Dockerfile and docker-compose.yml: These files include the command for installations such as anaconda env., Jupytherlab, as well as adding files. The provided docker-compose file defines a configuration for the Docker service. For example, it indicates the ports that Jupyter works on. 
+	8- Dockerfile and docker-compose.yml: These files include the command for installations such as anaconda env., Jupytherlab, as well as adding files. The provided docker-compose file defines a configuration for the Docker service. For example, it indicates the ports that Jupyter works on. 
 
 
 
@@ -56,7 +56,7 @@ It takes some minutes to install conda environments and jupyter. At the jupyter 
 The Loss and Accuracy figures are related to the text classification task.
 
 
-![loss](Results/loss.png)
+![loss](CluePoints_Exercises/Results/loss.png)
 
 
 ![Acc](Results/acc.png)
