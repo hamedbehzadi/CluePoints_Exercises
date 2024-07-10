@@ -17,8 +17,8 @@ SHELL ["conda", "run", "-n", "cluepoints", "/bin/bash", "-c"]
 
 # Installing Jupyter and ipykernel in the conda environment
 RUN conda install -c conda-forge jupyterlab && \
-    conda run -n idoven pip install ipykernel && \
-    conda run -n idoven python -m ipykernel install --name idoven --display-name "Python (idoven)"
+    conda run -n cluepoints pip install ipykernel && \
+    conda run -n cluepoints python -m ipykernel install --name cluepoints --display-name "Python (cluepoints)"
 
 # Expose Jupyter notebook port
 EXPOSE 8888

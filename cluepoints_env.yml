@@ -1,14 +1,14 @@
 name: cluepoints
 channels:
   - anaconda
+  - conda-forge
   - pytorch
   - nvidia
-  - conda-forge
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
-  - _py-xgboost-mutex=2.0=gpu_0
+  - _py-xgboost-mutex=2.0=cpu_0
   - anyio=4.2.0=py39h06a4308_0
   - argon2-cffi=21.3.0=pyhd3eb1b0_0
   - argon2-cffi-bindings=21.2.0=py39h7f8727e_0
@@ -26,7 +26,7 @@ dependencies:
   - brotli-python=1.0.9=py39h6a678d5_8
   - bzip2=1.0.8=h5eee18b_6
   - ca-certificates=2024.3.11=h06a4308_0
-  - certifi=2024.6.2=py39h06a4308_0
+  - certifi=2024.7.4=py39h06a4308_0
   - cffi=1.16.0=py39h5eee18b_1
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - comm=0.2.1=py39h06a4308_0
@@ -180,7 +180,8 @@ dependencies:
   - psutil=5.9.0=py39h5eee18b_0
   - ptyprocess=0.7.0=pyhd3eb1b0_2
   - pure_eval=0.2.2=pyhd3eb1b0_0
-  - py-xgboost=2.0.3=cuda120_pyh3ef1b53_4
+  - py-xgboost=2.0.3=cpu_pyh995e691_4
+  - py-xgboost-cpu=2.0.3=pyhb8f9a19_4
   - pybind11-abi=4=hd3eb1b0_1
   - pycparser=2.21=pyhd3eb1b0_0
   - pygments=2.15.1=py39h06a4308_1
@@ -240,7 +241,6 @@ dependencies:
   - websocket-client=1.8.0=py39h06a4308_0
   - wheel=0.43.0=py39h06a4308_0
   - widgetsnbextension=4.0.10=py39h06a4308_0
-  - xgboost=2.0.3=cuda120_pyh68bd8d9_4
   - xz=5.4.6=h5eee18b_1
   - yaml=0.2.5=h7b6447c_0
   - zeromq=4.3.5=h6a678d5_0
