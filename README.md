@@ -53,11 +53,11 @@ In order to execute the code, the only thing that you need to do is open a termi
 It takes some minutes to install conda environments and jupyter. At the jupyter lab is opend in your localhost. Then, the kernel named 'cluepoints' should be already activated. If not, you need to manually select the kernel. 
 
 
-The Loss and Accuracy figures are related to the text classification task.
+The Loss and Accuracy figures are related to the text classification task. The legends shows results from different experiments. For example, 
 
 
 ![loss](Exercise_2/Results/loss.png)
 
 
-![Acc](Exercise_2/Results/acc.png)
+![Acc](Exercise_2/Results/Acc.png)
 
