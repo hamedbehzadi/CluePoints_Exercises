@@ -56,8 +56,8 @@ It takes some minutes to install conda environments and jupyter. At the jupyter 
 The Loss and Accuracy figures are related to the text classification task.
 
 
-![loss](CluePoints_Exercises/Results/loss.png)
+![loss](Exercise_2/Results/loss.png)
 
 
-![Acc](Results/acc.png)
+![Acc](Exercise_2/Results/acc.png)
 
