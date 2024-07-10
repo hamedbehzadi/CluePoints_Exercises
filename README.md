@@ -53,8 +53,8 @@ In order to execute the code, the only thing that you need to do is open a termi
 It takes some minutes to install conda environments and jupyter. At the jupyter lab is opend in your localhost. Then, the kernel named 'cluepoints' should be already activated. If not, you need to manually select the kernel. 
 
 
-The Loss and Accuracy figures are related to the text classification task. The legends shows results from different experiments. For example, 
-
+The Loss and Accuracy figures are related to the text classification task. The legends shows results from different experiments. For example, stackoverflow-SingleFT* and stackoverflow-MultiFT* refer to experiments where BERT model has been fine-tuned directly on Stackoverflow datasets and via muti-task fineuning startegy, respectively.
+*
 
 ![loss](Exercise_2/Results/loss.png)
 
