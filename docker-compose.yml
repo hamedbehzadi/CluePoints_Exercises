@@ -1,0 +1,11 @@
+version: '3'
+services:
+  jupyter:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./Exercise_1:/app/Exercise_1
+      - ./Exercise_2:/app/Exercise_2
+    environment:
+      - PYTHONPATH=/app
